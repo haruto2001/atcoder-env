@@ -26,13 +26,13 @@ https://docs.docker.com/engine/reference/commandline/compose/
 - `docker compose up -d`
 
 Updated(2023/1/18)
-- make up
+- `make up`
 
 ### 3. Enter in running container with bash
 - `docker compose exec container_name bash`
 
 Updated(2023/1/18)
-- make exec
+- `make exec`
 
 ### 4. Run .py files
 - `python file_name.py`
