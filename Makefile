@@ -1,5 +1,8 @@
 NAME = atcoder-env
 
+all:
+	docker-compose up -d && docker-compose exec $(NAME) bash
+
 up:
 	docker-compose up -d
 
